@@ -43,8 +43,12 @@ filetype plugin indent on
 colorscheme gruvbox
 syntax enable
 
+" Needed to avoid termguicolors issue
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+
+set background=dark                         " light
 set termguicolors
-set background=dark
 set t_Co=256
 set splitbelow
 set splitright
@@ -67,10 +71,6 @@ set scrolloff=10                            " let 10 lines before/after cursor d
 set clipboard=unnamed                       " use system clipboard
 set exrc                                    " enable usage of additional .vimrc files from working directory
 set secure                                  " prohibit .vimrc files to execute shell, create files, etc...
-
-" Needed to avoid termguicolors issue
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 nnoremap <silent> <C-Right> <c-w>l
 nnoremap <silent> <C-Left> <c-w>h

@@ -1,3 +1,5 @@
+# Set up local environment variables 
+
 # Zsh gimmick to easen $PATH management
 typeset -U path
 path+=(
@@ -5,16 +7,20 @@ path+=(
  "${HOME}/.cargo/bin"
  "${HOME}/.crc/bin/oc"
 )
-export PATH
 
+export PATH
 export EDITOR=vim
 
+#Change to your specific apps
 
-# homebrew
-if [[ -f "/opt/homebrew/bin/brew" ]] then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
-
+#brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+
+
+
+
+
 
