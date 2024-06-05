@@ -1,0 +1,2 @@
+# Background term color for remote session
+# printf "\\033]11;rgb:28/28/28\\033\\\\"

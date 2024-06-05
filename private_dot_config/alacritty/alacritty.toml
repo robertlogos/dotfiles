@@ -26,7 +26,7 @@ white = "0xD9E0EE"
 yellow = "0xFAE3B0"
 
 [colors.cursor]
-cursor = "0xF5E0DC"
+cursor = "0xd79921"
 text = "0x1E1D2F"
 
 [colors.normal]
@@ -56,22 +56,23 @@ shape = "Block"
 TERM = "xterm-256color"
 
 [font]
-size = 16
+size = 18
 
-[font.bold]
-family = "JetBrainsMono Nerd Font"
+[font.normal]
+family = "Inconsolata Nerd Font Mono"
 style = "Regular"
 
+[font.bold]
+family = "Inconsolata Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "Inconsolata Nerd Font Mono"
+style = "Italic"
+ 
 [font.glyph_offset]
 x = 0
 y = 0
-
-[font.italic]
-family = "JetBrainsMono Nerd Font"
-
-[font.normal]
-family = "JetBrainsMono Nerd Font"
-style = "Regular"
 
 [font.offset]
 x = 0
@@ -91,9 +92,10 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 program = "/bin/zsh"
 
 [window]
-decorations = "full"
+decorations = "ButtonLess"
 dynamic_title = true
 startup_mode = "Maximized"
+opacity = 0.99
 
 [window.dimensions]
 columns = 160

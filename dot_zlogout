@@ -1,0 +1,2 @@
+# Restore background color to original for remote session
+# printf "\033]111\033\\"

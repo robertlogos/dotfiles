@@ -65,6 +65,12 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu yes select 
 
+# Restore terminal background
+printf "\033]111\033\\"
+
+# Default prompt
+PROMPT='[%n@%m %~]$ '
+
 # Aliases
 alias ls='ls --color'
 alias vi='vim'
