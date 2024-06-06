@@ -16,6 +16,10 @@ Install `homebrew` (macOS), `zsh`, `tmux`, `git`, `chezmoi`,  and basic tools:
 - mc
 - thefuck
 
+### TMUX Plugin Manager
+- git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
 ### Development tools
 - asdf
 - podman
@@ -46,11 +50,13 @@ Edit following configurations to your desired specifics:
 - `~/.config/alacritty/alacritty.toml` alacrittiy
 
 
-Decide between the standard `.p10k.zsh` or lean `p10k.zsh_lean`prompt ... or configure a new one
+Decide between the standard `.p10k.zsh` or lean `p10k.zsh_lean` prompt ... or configure a new one
 
     p10k configure
 
+Load TMUX plugins
 
+    CTRL-A I
 
 
 
