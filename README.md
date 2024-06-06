@@ -45,9 +45,14 @@ Edit following configurations to your desired specifics:
 - `~/.config/tmux/tmux.conf` tmux
 - `~/.config/alacritty/alacritty.toml` alacrittiy
 
-Configure p10k prompt line
+
+Decide between the standard `.p10k.zsh` or lean `p10k.zsh_lean`prompt ... or configure a new one
 
     p10k configure
+
+
+
+
 
 ## Working with .dotfiles and chezmoi
 
