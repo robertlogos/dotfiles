@@ -60,7 +60,7 @@ Check for differences
     chezmoi diff
     chezmoi diff <FILE>
 
-Undo changes 
+Undo changes / Apply from repository
 
     chezmoi apply
     chezmoi apply <FILE>
@@ -79,7 +79,8 @@ Push updates into repository
     git commit -m "<COMMIT_MESSAGE>"
     git push -u origin main
 
-
+Update repository
+    chezmoi git pull
 
 
 
