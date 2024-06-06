@@ -54,21 +54,30 @@ After editing the dotfiles
 
     chezmoi add <FILE>
 
-To check for differences
+Check for differences
 
     chezmoi diff
     chezmoi diff <FILE>
 
-To undo changes 
+Undo changes 
 
     chezmoi apply
     chezmoi apply <FILE>
 
-To push updates into repository
+
+Set remote url
 
     chezmoi cd
+    git remote set-url origin https://robertlogos:<API_KEY>/robertlogos/dotfiles.git
+
+
+Push updates into repository
+
+    chezmoi cd
+    git add .
     git commit -m "<COMMIT_MESSAGE>"
-    git push https://robertlogos:<API_KEY>@github.com/robertlogos/dotfiles.git
+    git push -u origin main
+
 
 
 
