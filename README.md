@@ -34,7 +34,7 @@ Install `homebrew` (macOS), `zsh`, `tmux`, `git`, `chezmoi`,  and basic tools:
 
 Download .dotfiles
 
-    chezmoi init https://github.com/robertlogos/dotfiles.git
+    chezmoi init https://robertlogos:<API_KEY>@github.com/robertlogos/dotfiles.git
     chezmoi apply
 
 Edit following configurations to your desired specifics:
