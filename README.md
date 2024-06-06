@@ -80,6 +80,7 @@ Push updates into repository
     git push -u origin main
 
 Update repository
+    
     chezmoi git pull
 
 
