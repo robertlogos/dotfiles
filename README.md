@@ -35,6 +35,7 @@ Install `homebrew` (macOS), `zsh`, `tmux`, `git`, `chezmoi`,  and basic tools:
 Download .dotfiles
 
     chezmoi init https://github.com/robertlogos/dotfiles.git
+    chezmoi apply
 
 Edit following configurations to your desired specifics:
 
@@ -68,7 +69,7 @@ Undo changes
 Set remote url
 
     chezmoi cd
-    git remote set-url origin https://robertlogos:<API_KEY>/robertlogos/dotfiles.git
+    git remote set-url origin https://robertlogos:<API_KEY>@github.com/robertlogos/dotfiles.git
 
 
 Push updates into repository
