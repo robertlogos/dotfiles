@@ -671,6 +671,16 @@ require('lazy').setup({
     end,
   },
 
+  { -- onedark colorscheme
+    'joshdick/onedark.vim',
+    lazy = false,
+    priority = 1000,
+    config = function()
+      --vim.g.gruvbox_contrast_dark = 'medium'
+      --vim.cmd.colorscheme 'gruvbox'
+    end,
+  },
+  
   { -- airline statusbar
     'vim-airline/vim-airline',
     lazy = false,
