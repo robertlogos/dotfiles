@@ -4,8 +4,6 @@
 typeset -U path
 path+=(
  "${HOME}/.local/bin"
- "${HOME}/.cargo/bin"
- "${HOME}/.crc/bin/oc"
 )
 
 export PATH
@@ -13,10 +11,8 @@ export EDITOR=vim
 
 #Change to your specific apps
 
-#brew
-eval "$(/opt/homebrew/bin/brew shellenv)"
 # asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+#. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 
 

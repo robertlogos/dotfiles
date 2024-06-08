@@ -17,7 +17,7 @@ Install `homebrew` (macOS), `zsh`, `tmux`, `git`, `chezmoi`,  and basic tools:
 - thefuck
 
 ### TMUX Plugin Manager
-- git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+- `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
 
 ### Development tools
