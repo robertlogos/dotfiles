@@ -17,8 +17,9 @@ Plug 'scrooloose/nerdtree'                " Project and file navigation
 Plug 'kien/ctrlp.vim'                     " Fast transitions on project files
 
 "-------------------=== Other ===-------------------------------
-Plug 'morhetz/gruvbox'
-Plug 'vim-airline/vim-airline'            " Themes for airline
+Plug 'morhetz/gruvbox'                    " Gruvbox colorscheme 
+Plug 'joshdick/onedark.vim'               " Onedark colorscheme 
+Plug 'vim-airline/vim-airline'            " Status line
 Plug 'fisadev/FixedTaskList.vim'          " Pending tasks list
 Plug 'tpope/vim-surround'                 " Parentheses, brackets, quotes, XML tags, and more
 Plug 'vimoutliner/vimoutliner'
@@ -40,7 +41,7 @@ filetype plugin indent on
 "=====================================================
 "" General settings
 "=====================================================
-colorscheme gruvbox
+colorscheme gruvbox 
 syntax enable
 
 " Needed to avoid termguicolors issue
