@@ -85,6 +85,3 @@ if type "zoxide" > /dev/null; then
   eval "$(zoxide init --cmd cd zsh)"
 fi
 
-if type "thefuck" > /dev/null; then
-  eval "$(thefuck --alias)"
-fi
