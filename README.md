@@ -14,7 +14,6 @@ Install `homebrew` (macOS), `zsh`, `tmux`, `git`, `chezmoi`,  and basic tools:
 - lsd
 - rg
 - mc
-- thefuck
 
 ### TMUX Plugin Manager
 - `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
