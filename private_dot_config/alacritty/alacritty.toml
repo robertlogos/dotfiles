@@ -93,8 +93,8 @@ program = "/bin/zsh"
 [window]
 decorations = "ButtonLess"
 dynamic_title = true
-startup_mode = "FullScreen"
-opacity = 0.95
+startup_mode = "Maximized"
+opacity = 1 
 
 [window.dimensions]
 columns = 160
