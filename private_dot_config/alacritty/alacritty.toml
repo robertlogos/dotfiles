@@ -58,15 +58,15 @@ TERM = "xterm-256color"
 size = 11
 
 [font.normal]
-family = "AdwaitaMono Nerd Font"
+family = "AdwaitaMono"
 style = "Regular"
 
 [font.bold]
-family = "AdwaitaMono Nerd Font"
+family = "AdwaitaMono"
 style = "Bold"
 
 [font.italic]
-family = "AdwaitaMono Nerd Font"
+family = "AdwaitaMono"
 style = "Italic"
  
 [font.glyph_offset]
