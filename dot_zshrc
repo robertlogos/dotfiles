@@ -84,6 +84,6 @@ if type "fzf" > /dev/null; then
 fi
 
 if type "zoxide" > /dev/null; then
-  eval "$(zoxide init --cmd cd zsh)"
+  eval "$(zoxide init zsh)"
 fi
 
