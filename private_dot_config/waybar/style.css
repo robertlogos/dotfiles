@@ -14,7 +14,7 @@
 }
 
 window#waybar {
-  background-color: @bg;
+  background-color: rgba(34, 34, 34, 0.3);
   color: @fg;
   border-bottom: 1px solid @border;
   min-height: 20px;
@@ -38,19 +38,21 @@ button {
 }
 #window, #workspaces { margin: 0 2px; }
 
-#tray, #temperature, #clock, #cpu, #memory, #network, #battery, #backlight, #pulseaudio,#idle_inhibitor, #power-profiles-daemon, #custom-media, #custom-power, #keyboard-state {
+#tray, #temperature, #clock, #cpu, #memory, #network, #backlight, #pulseaudio,#idle_inhibitor, #power-profiles-daemon,#custom-media, #custom-power, #keyboard-state {
     border-radius: 20px;
     /*padding: 0 15pxa;i*/
     border-left: 1px solid @accent;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 6px;
 }
+/*Beware: tray spacing comes from the config file*/
 
 #clock { 
     /*font-weight: bold;*/ 
     color: @accent; 
     border-left: 0px;
     background: transparent;
+    font-size: 14px;
 }
 
 #custom-power {

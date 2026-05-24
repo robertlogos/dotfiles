@@ -8,16 +8,17 @@
         "clock"
     ],
     "modules-right": [
-        "idle_inhibitor",
-        "network",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
-        "battery",
-        "power-profiles-daemon",
+        
         "tray",
+        "idle_inhibitor",
+        /*"network",*/
+        /*"cpu",*/
+        "memory",
+        /*"temperature",*/
+        "backlight",
         "pulseaudio",
+        "power-profiles-daemon",
+        "battery",
         "custom/power"
     ],
     "keyboard-state": {
@@ -37,9 +38,7 @@
         }
     },
     "tray": {
-        "icons": {
-            "blueman": "bluetooth"
-         }
+        "spacing" : 8
     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -47,10 +46,12 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "hyprctl dispatch exec '[float; size 950 600;] alacritty -e btop'"
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% ",
+        "on-click": "hyprctl dispatch exec '[float; size 950 600;] alacritty -e btop'"
     },
     "temperature": {
         "critical-threshold": 80,
@@ -97,7 +98,7 @@
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
+        "format-source": " {volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -108,7 +109,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "hyprctl dispatch exec '[float; size 950 600;] pavucontrol'"
     },
     "custom/media": {
         "format": "{icon} {text}",
