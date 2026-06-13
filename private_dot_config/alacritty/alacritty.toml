@@ -55,18 +55,20 @@ shape = "Block"
 TERM = "xterm-256color"
 
 [font]
-size = 10
+size = 11
 
 [font.normal]
-family = "AdwaitaMono Nerd Font"
+#family = "AdwaitaMono Nerd Font"
+family = "JetBrainsMonoNerdFont"
+#family = "GeistMonoNerdFont"
 style = "Regular"
 
 [font.bold]
-family = "AdwaitaMono Nerd Font"
+family = "JetBrainsMonoNerdFont"
 style = "Bold"
 
 [font.italic]
-family = "AdwaitaMono Nerd Font"
+family = "JetBrainsMonoNerdFont"
 style = "Italic"
  
 [font.glyph_offset]
